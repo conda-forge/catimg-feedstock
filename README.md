@@ -24,6 +24,18 @@ SECOND NOTE: This requires iTerm2 2.9 or later. You can download it at
 https://www.iterm2.com/downloads.html.
 
 
+Current build status
+====================
+
+Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/catimg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/catimg-feedstock)
+Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/catimg/badges/version.svg)](https://anaconda.org/conda-forge/catimg)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/catimg/badges/downloads.svg)](https://anaconda.org/conda-forge/catimg)
+
 Installing catimg
 =================
 
@@ -44,7 +56,6 @@ It is possible to list all of the versions of `catimg` available on your platfor
 ```
 conda search catimg --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -80,18 +91,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/catimg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/catimg-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/catimg/badges/version.svg)](https://anaconda.org/conda-forge/catimg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/catimg/badges/downloads.svg)](https://anaconda.org/conda-forge/catimg)
 
 
 Updating catimg-feedstock
