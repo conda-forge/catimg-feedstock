@@ -12,14 +12,14 @@ source:
 build:
   entry_points:
     - catimg = catimg.__main__:main
-  number: 1000
+  number: 1001
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [py2k or not osx]
 
 requirements:
-  build:
+  host:
     - python
-    - setuptools
+    - pip
     - requests
     - imgurpython
     - iterm2-tools >=2.0
