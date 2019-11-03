@@ -13,7 +13,7 @@ build:
   entry_points:
     - catimg = catimg.__main__:main
   number: 1000
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [py2k or not osx]
 
 requirements:
@@ -39,6 +39,7 @@ test:
 about:
   home: https://github.com/asmeurer/catimg
   license: MIT
+  license_file: LICENSE.md
   summary: 'Print an image of a cat from Imgur to iTerm2.'
 
   description: |
