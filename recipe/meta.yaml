@@ -5,14 +5,13 @@ package:
   version: {{ version }}
 
 source:
-  fn: catimg-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/c/catimg/catimg-{{ version }}.tar.gz
-  md5: 94227c65936a5e4cada9260efe0125c4
+  sha256: e1dcd45324757c0721458840d368e37e6ba45d9ac9a5a38201ce6dd92154a849
 
 build:
   entry_points:
     - catimg = catimg.__main__:main
-  number: 1001
+  number: 1002
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [py2k or not osx]
 
