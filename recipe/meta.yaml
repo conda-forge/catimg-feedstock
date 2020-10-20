@@ -9,6 +9,7 @@ source:
   sha256: e1dcd45324757c0721458840d368e37e6ba45d9ac9a5a38201ce6dd92154a849
 
 build:
+  noarch: python
   entry_points:
     - catimg = catimg.__main__:main
   number: 1003
